@@ -1,0 +1,36 @@
+h1{
+    font-size: 2.5em;
+    color: #333333;
+    margin-bottom: 0.5em;
+}
+pre strong{
+    background-color: brown;
+    color: white;
+    border-radius: 5px;
+    overflow-x: auto;
+}
+*{
+   background-color: black;
+}
+#id1{
+    color: white!important;
+    font-size: 1.2em;
+    margin-top: 1em;
+    text-align: center;
+}
+.h1class{
+    color: yellow;
+    font-weight: bold;
+    padding: 10px;
+}
+#ahmad{
+    color: burlywood!important;
+    font-size: 1.5em;
+    margin-top: 1em;
+    text-align: left;
+}
+.obj{
+    background-color: darkmagenta !important;
+    color: wheat ;
+    text-align: center;
+}
