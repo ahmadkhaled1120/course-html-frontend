@@ -1,0 +1,55 @@
+ #main 
+  {
+
+   box-sizing: border-box;
+  }
+  
+  
+  
+  
+  #mainGrad{
+   display: grid;
+   grid-template-columns: auto auto auto;
+    background-color: lightblue;
+    padding: 20px;
+}
+
+
+
+
+
+.container{
+   
+    text-align: center;
+    gap: 10px;
+    background-color: lightgray;
+   border-radius: 30px;
+    margin: 20px;
+    border: 50px solid lightgray;
+    padding: 40px;
+}
+
+.aa{
+   background-color: white;
+   padding: 40px;
+   text-align: center;
+   border: 3px solid black;
+   margin: 20px;
+
+}
+
+aa img{
+   border-radius: 50%;
+}
+.aa button{
+   background-color: lightblue;
+   font-size: 16px;
+   padding: 10px;
+   border-radius: 5px;
+  margin-top: 10px;
+}
+aa p{
+   font-size: 14px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   color: gray;
+}

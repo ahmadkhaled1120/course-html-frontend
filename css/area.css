@@ -1,0 +1,151 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+#nav{
+
+    width: 100%;
+    height: 100px;
+    background-color: blue;
+    grid-area: nav;
+    display: flex;
+    align-items: center;
+   
+   
+    
+}
+#nav ul{
+    list-style: none;
+    display: flex;
+    width: 100%;
+     justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    
+   
+    
+  
+}
+ #nav ul a{
+    color: white;
+text-decoration: none;
+border: 3px solid black;
+border-radius: 5px;
+font-size: 30px;
+ }  
+
+
+#menu{
+    width:100%;
+    height: 100%;
+    background-color:bisque;
+    grid-area: menu;
+    
+
+}
+#menu  ul{
+list-style: none;
+margin-top: 50px; 
+   
+
+}
+#menu ul li{
+   
+    font-size: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    text-align: center;
+    border: 2px solid black; 
+    background-color: white; 
+   margin-top: 50px;
+    border-radius: 20px;
+     
+     
+   
+
+   
+    
+   
+}   
+#menu ul li a{
+    text-decoration: none;
+    color: brown;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+     padding: 5px;
+    
+     
+    
+    
+    }
+    
+    
+
+#main{
+    width:100%;
+    height: 600px;
+    background-color: lightblue;
+    grid-area: main;
+   
+
+}
+.aa{
+    display:flex;
+    margin-left:50px ;
+    
+}
+#main img{
+    width: 9%;
+    height: 10%;
+
+    border-radius: 5px;
+    text-align: center;
+  
+    border: 5px solid white;
+ border-radius: 20px;
+ margin-top: 2%;
+    
+} 
+#main p{
+    font-size: 13px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-right:30%;
+  margin-top: 4%;
+  
+}
+#footer{
+    width: 100%;
+    height: 150px;
+     
+    background-color: white;
+    grid-area: footer;
+}
+#footer button{
+    width: 200px;
+    height: 50px;
+    display:inline-block;
+   
+   margin-top: 50px;
+    margin-left:  200px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 2px solid black;
+    background-color: lightgray;
+
+}
+
+  #mainGrad{
+    display: grid;
+    grid-template-areas: "nav nav nav"
+                         "menu main main"
+                         "menu footer footer";
+     
+    
+}
+
+@media screen and (max-width:600px) 
+{
+
+    
+}
